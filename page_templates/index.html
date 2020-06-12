@@ -1,0 +1,83 @@
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese" type="text/css" media="all">
+
+<style>
+  body {
+    font-family: "Roboto";
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: bottom;
+  }
+
+  .header a {
+    text-decoration: none;
+  }
+
+  .header a:visited {
+    text-decoration: none;
+  }
+
+  .header .left {
+    display: inline-block;
+  }
+
+  .header .right {
+    display: inline-block;
+  }
+
+  .header .logo {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .header .option {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+  .hero-section {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+  }
+
+  .hero-section > p {
+    margin-bottom: 20px;
+  }
+
+</style>
+
+<body>
+  <div class='main'>
+    <div class='header'>
+      <div class='left'>
+        <div class='logo'>User Login Demo</div>
+      </div>
+      <div class='right'>
+        <div class='option'><a href='/create-account'>Sign Up</a></div>
+        <div class='option'><a href='/log-in'>Login</a></div>
+      </div>
+    </div>
+
+    <div class='hero-section'>
+      <div class='left'>
+        <p class='first-line'>User Login Demo</p>
+        <p class='second-line'>This demo shows how to build user login in a simple way.</p>
+        <p><a class='cta' href="/create-account">Call to action</a></p>
+      </div>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,22 @@
+{
+  "name": "user_login_demo",
+  "version": "1.0.0",
+  "description": "npm install",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "connect": "^3.7.0",
+    "cookie-session": "^1.4.0",
+    "expand-home-dir": "0.0.3",
+    "lodash": "^4.17.15",
+    "mustache": "^4.0.1",
+    "serve-static": "^1.14.1"
+  }
+}
